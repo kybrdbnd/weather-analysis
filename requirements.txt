@@ -1,0 +1,4 @@
+chartkick==0.5.0
+Django==1.11.5
+pytz==2017.2
+urllib3==1.22

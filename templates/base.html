@@ -1,0 +1,19 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include 'css.html' %}
+</head>
+
+<body>
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">TransOrg Analysis</a>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    {% block content %} {% endblock %} {% include 'js.html' %} {% block extra_js%} {% endblock %}
+</body>
+
+</html>
